@@ -8,11 +8,12 @@ import "./index.css";
 function App() {
   const { pathname } = useLocation();
   const [searchTerm, setSearchTerm] = useState("");
+  console.log(pathname)
 
   return (
     <>
       <Header setSearchTerm={setSearchTerm} />
-      {pathname === "/" ? <LandingPage /> : <Main searchTerm={searchTerm} />}
+      {pathname === "/" || pathname === "/StarWars-API" ? <LandingPage /> : <Main searchTerm={searchTerm} />}
     </>
   );
 }
