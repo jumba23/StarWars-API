@@ -42,6 +42,7 @@ const Main = ({ searchTerm }) => {
   };
 
   const fetchSearchTerm = async () => {
+    if(pathname === "/StarWars-API/") return
     await getSearchTerm(searchTerm, pathname.split("/")[1])
       .then((returnedSearchTerm) => {
         checkRouteCategory(returnedSearchTerm);
@@ -103,7 +104,7 @@ const Main = ({ searchTerm }) => {
       <div className="home-link">
       <NavLink
         to="/"
-        style={({ isActive = true }) => ({ color: isActive ? "yellow" : "yellow" })}
+        style={({ isActive }) => ({ color: isActive ? "yellow" : "yellow" })}
       >
         HOME
       </NavLink>
