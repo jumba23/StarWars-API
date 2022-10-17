@@ -4,6 +4,7 @@ import Details from "../Details/Details";
 import Names from "../Names/Names";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { getCategory, getSearchTerm } from "../Helper/fetchAPI";
+import { NavLink } from "react-router-dom";
 import "./main.css";
 
 const Main = ({ searchTerm }) => {
@@ -78,6 +79,7 @@ const Main = ({ searchTerm }) => {
     <>
       <div className="main-display">
         <Routes>
+        <Route path="/" element={<LandingPage />}/>
           <Route path="/people" element={<Names list={people} />}>
             <Route path=":id" element={<Details list={people} />} />
           </Route>
@@ -98,6 +100,14 @@ const Main = ({ searchTerm }) => {
             }}
           />
         </Routes>
+      <div className="home-link">
+      <NavLink
+        to="/"
+        style={({ isActive = true }) => ({ color: isActive ? "yellow" : "yellow" })}
+      >
+        HOME
+      </NavLink>
+      </div>
       </div>
     </>
   );

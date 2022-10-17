@@ -9,7 +9,7 @@ const Header = ({ setSearchTerm }) => {
   return (
     <>
       <h1>STAR WARS DATA</h1>
-      {pathname === "/" ? (
+      {pathname === "/" || pathname === "/StarWars-API" ? (
         <p>
           Make your selection and <span>may the force be with you!</span>
         </p>
