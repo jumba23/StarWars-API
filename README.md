@@ -2,7 +2,7 @@
 This is a simple app where a user can select and search through Star Wars data using React and open source Start Wars API.
 
 #
-Try the app here - [SWAPI App](     )
+Try the app here - [SWAPI App](https://star-wars-api-version2.herokuapp.com/)
 
 # Application 
 <p align="center"><img src="https://user-images.githubusercontent.com/80366503/196071175-3d0ec79d-5cb1-45e4-ae8c-f5626a7f0549.gif" width="60%" ></p>
