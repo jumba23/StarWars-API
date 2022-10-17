@@ -1,0 +1,14 @@
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 30vw;
+  justify-content: space-evenly;
+  color: yellow;
+  background-color: black;
+  font-size: 1.8vh;
+  padding: 0 2vw;
+}
+
+.main-nav:hover {
+  cursor: pointer;
+}

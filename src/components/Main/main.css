@@ -1,0 +1,7 @@
+.main-display {
+  display: flex;
+  align-items: flex-start;
+  gap: 4vw;
+  margin-top: 3rem;
+  margin-left: 15vw;
+}

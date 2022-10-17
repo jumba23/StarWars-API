@@ -1,0 +1,33 @@
+h5 {
+  text-align: center;
+  font-size: 1.5vh;
+  padding: 0;
+}
+
+.search-data-details {
+  padding: 2vh 3vh;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-self: center;
+  width: 20vw;
+  height: 22vh;
+  border: 1px solid yellow;
+  background-color: rgba(106, 106, 106, 0.3);
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.details-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 1.6vh;
+  padding-top: 0.6vh;
+  margin-bottom: 0;
+}
+
+.detail-label {
+  display: flex;
+  min-width: 8vw;
+}

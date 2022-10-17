@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-basis: 35vw;
+  margin: 2% 0;
+  opacity: 0.7;
+}
+
+input {
+  width: 12vw;
+  align-items: center;
+  color: black;
+  border: none;
+}
+
+Button {
+  align-items: center;
+  background-color: black;
+  color: yellow;
+  border: 0.5px solid yellow;
+}

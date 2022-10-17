@@ -1,0 +1,32 @@
+@font-face {
+  font-family: starWarsFont;
+  src: url(../resources/SfDistantGalaxy.ttf);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  text-align: center;
+  font-size: 7vh;
+  font-family: starWarsFont;
+}
+
+p {
+  padding-top: 3%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+span {
+  font-style: italic;
+}
+
+.header-nav-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 4vw;
+}
