@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header setSearchTerm={setSearchTerm} />
-      {pathname === "/" || pathname === "/StarWars-API" ? <LandingPage /> : <Main searchTerm={searchTerm} />}
+      {pathname === "/" || pathname === "/StarWars-API/" ? <LandingPage /> : <Main searchTerm={searchTerm} />}
     </>
   );
 }
