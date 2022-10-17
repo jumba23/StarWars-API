@@ -1,4 +1,4 @@
-# SWAPI App
+# Star Wars API App
 This is a simple app where a user can select and search through Star Wars data using React and open source Start Wars API.
 
 #
@@ -11,7 +11,7 @@ Try the app here - [SWAPI App](     )
 This is my lates version of this application. The first version was utilizing table presentation of only star wars characters in a simple table listing of all the characters. In this version a user can choose between several categories and from there he/she can select every individual name for more details. Search form is available in each category and it will only take in elements of that category. 
 
 # Tech notes
-Updating this ap gave me an opportunity to practice new version of React Routed Dome (v6)) and get better at using react hooks. It was fun learning experience.
+Updating this app gave me an opportunity to practice new version of React Routed Dome (v6)) and get better at using React hooks. It was fun learning experience.
 
 - **React-router-dom** {BrowserRouter, NavLink, Route, Routes, Outlet} - handles all of the routing of the application. I was able to use nested routing for each         category  for faster page loading, since SWAPI can take some time to load. This way, switching between categories will not cause a component to unmount, since         everything is loaded/fetched inside the parent component. The request for details will not initiate any further fetching either. As you click through names and         details, browser URL will reflect those nested routes with matching id's.
 
