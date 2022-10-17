@@ -104,7 +104,7 @@ const Main = ({ searchTerm }) => {
       <div className="home-link">
       <NavLink
         to="/"
-        style={({ isActive }) => ({ color: isActive ? "yellow" : "yellow" })}
+        style={({ isActive }) => ({ isActive : true })}
       >
         HOME
       </NavLink>
