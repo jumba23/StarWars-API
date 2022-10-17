@@ -16,7 +16,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://jumba23.github.io/StarWars-API",
+  "homepage": "https://jumba23.github.io/StarWars-API/",
 
   "scripts": {
     "predeploy": "npm run build",
